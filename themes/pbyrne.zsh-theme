@@ -17,5 +17,5 @@ pbyrne_prompt() {
 
 PROMPT='
 $(pbyrne_prompt)
-$ '
+%(?,%{%F{green}%},%{%F{red}%})$%{$reset_color%} '
 
